@@ -56,8 +56,12 @@ var connection = mysql.createConnection({
                     });
                     var totalPrice = res[i].price * response.Qty;
                     console.log("Order submitted. Your total is $" + totalPrice.toFixed(2) +". Thank you!");
+                    return ;
                 }
             }
+            console.log("Item id not found");
+            connection.end();
+            return ;
         });
     });
   });
