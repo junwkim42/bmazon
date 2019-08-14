@@ -11,7 +11,7 @@ usage: node bamazonCustomer.js
 
 ### Installation
 Run contents of bmazon_schema.sql through mysql or mysql Workbench to create database, table and seed.\
-Run "npm install" to install two packages used in bamazonCustomer.js
+Run "npm install" to install two dependencies used in bamazonCustomer.js
 
 ### Tests
 ![testimg](https://i.imgur.com/MAmVb7K.gif)
